@@ -16,30 +16,57 @@ body {
     width: 100%;
     font-size: small;
 }
-ul{ 
+#footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: small;
+}
+.header{ 
  
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    margin-left: 85%;
+    padding: 20px;
     overflow: hidden;
 }
-li{
-    float: left;
-    padding: 20px 20px 20px
+.header_item{
+    display: inline;
+ 
 }
-li a{
+.header_link{
     color:black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 8px;
     text-decoration: none;
 }
-li a:hover{
+.header_link:hover{
     color: gray;
     text-decoration: underline;
 }
+.footer{
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+}
+#promo{
+    display: inline;
+    margin-left:42%;
+    padding: 20;
+
+}
+#customize{
+    display: inline;
+}
+
 #logo{
     padding: 10px 10px 10px 10px
 }
 #search-bar{
     padding: 20px 20px 20px 20px  
+}
+input {
+    border-radius: 10px;
+    border-width: 1px;
+    
 }
