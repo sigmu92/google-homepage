@@ -15,7 +15,7 @@ body {
     top: 0;
     width: 100%;
     font-size: small;
-}
+    }
 #footer{
     position: fixed;
     bottom: 0;
@@ -26,13 +26,27 @@ body {
  
     list-style-type: none;
     margin: 0;
-    margin-left: 85%;
     padding: 20px;
     overflow: hidden;
 }
 .header_item{
-    display: inline;
- 
+    float:left; 
+    padding:5px;
+}
+.sign-in{
+    float:right;
+    border-style: none;
+    border-radius: 3px;
+    background-color: #4387fd;
+    text-align: center;
+    padding:5px;
+}
+.sign-in-link{
+    color:white;
+    text-align:center;
+    padding: 10px;
+    text-decoration:none;
+    font-weight:bold
 }
 .header_link{
     color:black;
@@ -58,15 +72,22 @@ body {
 #customize{
     display: inline;
 }
-
+button{
+    padding:10px 10px;
+    color: gray;
+    border-style: none;
+    border-radius: 3px;
+}
 #logo{
-    padding: 10px 10px 10px 10px
+    padding: 10px 10px 10px 10px;
 }
 #search-bar{
-    padding: 20px 20px 20px 20px  
+    padding: 20px;  
 }
 input {
     border-radius: 10px;
     border-width: 1px;
+    border-color: gray;
+    padding: 10px
     
 }
